@@ -388,15 +388,3 @@ if __name__ == "__main__":
         run_angular_distance(
             all_pred_words
         )
-
-        print(
-            "\n========================"
-        )
-
-        print(
-            "DONE ONE FILE"
-        )
-
-        print(
-            "========================\n"
-        )
