@@ -1,6 +1,6 @@
 Odorant Selection
 ============================
-This script is intended to be used after running the SCENT model. It takes the top-5 predicted odor descriptors from SCENT and performs angular-distance-based matching against the GT odorant vectors.
+This script is intended to be used after running the SCENT model [1]. It takes the top-5 predicted odor descriptors from SCENT and performs angular-distance-based matching against the GT odorant vectors.
 This section compares the model-predicted top-5 odor descriptors with the GT vectors in `GT_vectors.xlsx`.
 
 Before running the code, check the following items.
@@ -56,3 +56,7 @@ Angular distance is calculated in radians:
     angular_distance = arccos(cosine_similarity)
 
 Smaller values indicate greater similarity.
+
+
+## Reference
+[1] Zhang, Z. et al. SCENT: Aligning Mass Spectra with Molecular Structure for Olfactory Perception. Preprint at https://doi.org/10.48550/ARXIV.2605.27009 (2026)
