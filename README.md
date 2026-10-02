@@ -2,6 +2,7 @@ Odorant Selection
 ============================
 This script is intended to be used after running the SCENT model [1]. It takes the top-5 predicted odor descriptors from SCENT and performs angular-distance-based matching against the GT odorant vectors.
 This section compares the model-predicted top-5 odor descriptors with the GT vectors in `GT_vectors.xlsx`.
+The final output is the odorant whose GT vector has the smallest angular distance to the prediction vector, along with the corresponding angular distance.
 
 Before running the code, check the following items.
 
