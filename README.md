@@ -61,4 +61,5 @@ Smaller values indicate greater similarity.
 
 ## Reference
 [1] Zhang, Z. et al. SCENT: Aligning Mass Spectra with Molecular Structure for Olfactory Perception. Preprint at https://doi.org/10.48550/ARXIV.2605.27009 (2026)
+
 [2] Good Scents Company. The Good Scents Company Information System. https://www.thegoodscentscompany.com/
